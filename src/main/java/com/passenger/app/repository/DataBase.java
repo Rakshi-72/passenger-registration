@@ -13,6 +13,9 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+/**
+ * DataBase is a class that contains a list of passengers.
+ */
 public class DataBase {
     private List<Passenger> passengers = new ArrayList<>();
 }

@@ -16,6 +16,12 @@ public class PassengerService {
     @Autowired
     private UserJpaRepository repository;
 
+    /**
+     * > The function adds a passenger to the database
+     *
+     * @param passenger The passenger object to be added to the database.
+     * @return A boolean value.
+     */
     public boolean addPassenger(Passenger passenger) {
         dataBase.getPassengers().add(passenger);
         List<Passenger> passengers = repository.saveAll(dataBase.getPassengers());

@@ -14,6 +14,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 @Component
+/**
+ * Passenger is a class that has a passengerId, passengerName, passengerEmail, password, address, and contactNumber
+ */
 public class Passenger {
     @Id
     private int passengerId;

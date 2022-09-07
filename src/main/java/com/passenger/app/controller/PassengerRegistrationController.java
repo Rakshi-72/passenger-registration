@@ -16,6 +16,9 @@ public class PassengerRegistrationController {
     @Autowired
     private PassengerService passengerService;
 
+    /**
+     * It registers a user.
+     */
     @GetMapping("/user/register")
     public void registerUser() {
         System.out.println("enter id");
